@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- normalize css cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="gallery">
+        <div class="gallery__images">
+          <img
+            src="https://images.unsplash.com/photo-1675369647408-c10f4df6dfb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt="click here"
+            onclick="myImageFunction(this)"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1675190682426-e0297ceb5e6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt="click here"
+            onclick="myImageFunction(this)"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1675154794049-a6fe17dd3791?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt="click here"
+            onclick="myImageFunction(this)"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1675361009614-42362a16e7a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt="click here"
+            onclick="myImageFunction(this)"
+          />
+        </div>
+
+        <div class="image-container">
+          <img
+            id="img-Box"
+            src="https://images.unsplash.com/photo-1675369647408-c10f4df6dfb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt="click here"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- custom js -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

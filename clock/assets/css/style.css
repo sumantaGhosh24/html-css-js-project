@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #eee;
+}
+.clock {
+  font-size: 72px;
+  font-weight: bold;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background: #fff;
+}
